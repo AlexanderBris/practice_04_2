@@ -1,0 +1,17 @@
+runfile('E:/2WORK/python/Practice_04_2/practice_04_2_GRU.py', wdir='E:/2WORK/python/Practice_04_2')
+Epoch 1/3
+985/985 [==============================] - ETA: 0s - loss: 0.2069 - accuracy: 0.9163   
+Epoch 1: val_accuracy improved from -inf to 0.95309, saving model to best_model_gru_batch512.h5
+C:\Users\Alexander\AppData\Roaming\Python\Python310\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+985/985 [==============================] - 731s 741ms/step - loss: 0.2069 - accuracy: 0.9163 - val_loss: 0.1238 - val_accuracy: 0.9531
+Epoch 2/3
+985/985 [==============================] - ETA: 0s - loss: 0.1408 - accuracy: 0.9458   
+Epoch 2: val_accuracy improved from 0.95309 to 0.95680, saving model to best_model_gru_batch512.h5
+985/985 [==============================] - 687s 698ms/step - loss: 0.1408 - accuracy: 0.9458 - val_loss: 0.1147 - val_accuracy: 0.9568
+Epoch 3/3
+985/985 [==============================] - ETA: 0s - loss: 0.1234 - accuracy: 0.9530   
+Epoch 3: val_accuracy improved from 0.95680 to 0.95971, saving model to best_model_gru_batch512.h5
+985/985 [==============================] - 688s 698ms/step - loss: 0.1234 - accuracy: 0.9530 - val_loss: 0.1074 - val_accuracy: 0.9597
+1188/1188 [==============================] - 37s 31ms/step - loss: 0.1309 - accuracy: 0.9510
+
