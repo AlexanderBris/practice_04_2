@@ -15,3 +15,26 @@ Epoch 3: val_accuracy improved from 0.95680 to 0.95971, saving model to best_mod
 985/985 [==============================] - 688s 698ms/step - loss: 0.1234 - accuracy: 0.9530 - val_loss: 0.1074 - val_accuracy: 0.9597
 1188/1188 [==============================] - 37s 31ms/step - loss: 0.1309 - accuracy: 0.9510
 
+Epoch 1/5
+134/134 [==============================] - ETA: 0s - loss: 0.7376 - accuracy: 0.5763  
+Epoch 1: val_accuracy improved from -inf to 0.82605, saving model to best_model_gru_4class.h5
+C:\Users\Alexander\AppData\Roaming\Python\Python310\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+134/134 [==============================] - 69s 507ms/step - loss: 0.7376 - accuracy: 0.5763 - val_loss: 0.4136 - val_accuracy: 0.8261
+Epoch 2/5
+134/134 [==============================] - ETA: 0s - loss: 0.2680 - accuracy: 0.8885 
+Epoch 2: val_accuracy improved from 0.82605 to 0.92895, saving model to best_model_gru_4class.h5
+134/134 [==============================] - 64s 475ms/step - loss: 0.2680 - accuracy: 0.8885 - val_loss: 0.1741 - val_accuracy: 0.9289
+Epoch 3/5
+134/134 [==============================] - ETA: 0s - loss: 0.1518 - accuracy: 0.9427 
+Epoch 3: val_accuracy improved from 0.92895 to 0.93842, saving model to best_model_gru_4class.h5
+134/134 [==============================] - 63s 474ms/step - loss: 0.1518 - accuracy: 0.9427 - val_loss: 0.1579 - val_accuracy: 0.9384
+Epoch 4/5
+134/134 [==============================] - ETA: 0s - loss: 0.1140 - accuracy: 0.9597 
+Epoch 4: val_accuracy did not improve from 0.93842
+134/134 [==============================] - 63s 470ms/step - loss: 0.1140 - accuracy: 0.9597 - val_loss: 0.1647 - val_accuracy: 0.9355
+Epoch 5/5
+134/134 [==============================] - ETA: 0s - loss: 0.0865 - accuracy: 0.9703  
+Epoch 5: val_accuracy did not improve from 0.93842
+134/134 [==============================] - 63s 470ms/step - loss: 0.0865 - accuracy: 0.9703 - val_loss: 0.1740 - val_accuracy: 0.9337
+1188/1188 [==============================] - 31s 26ms/step - loss: 0.1122 - accuracy: 0.9626
